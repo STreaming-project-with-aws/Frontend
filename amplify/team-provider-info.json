@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-twitchsltest-dev-94756-authRole",
+      "UnauthRoleArn": "arn:aws:iam::076677838612:role/amplify-twitchsltest-dev-94756-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::076677838612:role/amplify-twitchsltest-dev-94756-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-twitchsltest-dev-94756-deployment",
+      "UnauthRoleName": "amplify-twitchsltest-dev-94756-unauthRole",
+      "StackName": "amplify-twitchsltest-dev-94756",
+      "StackId": "arn:aws:cloudformation:eu-west-1:076677838612:stack/amplify-twitchsltest-dev-94756/dc2e06c0-36b0-11eb-9cc7-0a5607816411",
+      "AmplifyAppId": "d1dwci4mlge3rn"
+    },
+    "categories": {
+      "auth": {
+        "twitchsltestb13bfe7e": {}
+      }
+    }
+  }
+}

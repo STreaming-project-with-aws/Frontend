@@ -1,0 +1,114 @@
+body {
+    /* background: #FFEEEE; 
+background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE); 
+background: linear-gradient(to right, #DDEFBB, #FFEEEE);  */
+
+/* background: #9361f1; */
+
+/* background: #2193b0; 
+background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  
+background: linear-gradient(to right, #6dd5ed, #2193b0); */
+
+background: #834d9b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d04ed6, #834d9b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #d04ed6, #834d9b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+}
+
+.livechat {
+    position: absolute;
+    height: 100%;
+    left: 1100px;
+    margin-top: -500px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+.messagesbox {
+    height: 400px;
+    /* overflow: scroll; */
+    overflow-x:hidden;
+    width: 240px;
+    margin-left: /* -70px */ -30%;
+    /* border-radius: 10px; */
+/* background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  
+background: linear-gradient(to right, #24FE41, #FDFC47);  */
+
+/* background-color: #f1f1f1; */
+
+background: rgba( 39, 48, 245, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+font-family: 'Barlow', sans-serif;
+font-size: 14px;
+}
+
+/* .messagebox::-webkit-scrollbar {
+    display: none;
+  }
+
+.messagebox::-webkit-scrollbar-thumb {
+    background: rgb(224, 165, 165);
+  } */
+
+  .messagesbox::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  .messagesbox::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .messagesbox::-webkit-scrollbar-thumb {
+    /* background: rgb(255, 0, 200);  */
+    background: #6441a5;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .messagesbox::-webkit-scrollbar-thumb:hover {
+    background: #c7ee18; 
+  }
+  
+
+.message {
+    position: absolute;
+    margin-top: 0px;
+    left: -110px;
+
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+.viewcount {
+  left: 0px;
+  padding: 20px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.checkout {
+  position: fixed;
+  padding: 10px;
+  left: 95%;
+}
+
+.sendbits {
+  margin: 10px;
+  margin-left: 40px;
+  flex-direction: row;
+}
+
+.bits {
+  margin-top: -40px;
+  margin-left: 60px;
+  font-family: 'Barlow', sans-serif;
+}

@@ -1,0 +1,29 @@
+.body {
+    background: white
+}
+
+.imgtile{
+    /* height: 300px; */
+    /* width: 225px; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ 
+}
+
+.tiles {
+    text-align: center;
+   
+}
+
+
+.begin {
+    background: linear-gradient(to bottom, #33bdef 5%, #019ad2 100%); 
+    font-family: 'Barlow', sans-serif;
+    color: white;
+    font-size: 'bold';
+    position: absolute;
+    left: 83%;
+    margin-top: 1%
+}
+
