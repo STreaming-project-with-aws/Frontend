@@ -8,7 +8,7 @@ import axios from 'axios'
 import { UserDeleteOutlined } from '@ant-design/icons';
 import { useLocation } from "react-router-dom";
 
-// const streamUrl = "https://3e78de676721.eu-west-1.playback.live-video.net/api/video/v1/eu-west-1.076677838612.channel.mDIQL4B6xZre.m3u8"
+// const streamUrl = ""
 
 
 function Stream(props) {
